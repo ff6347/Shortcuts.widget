@@ -1,0 +1,205 @@
+<table>
+<thead>
+  <tr>
+      <th class="table-head">Section</th>
+      <th class="table-head">description</th>
+      <th class="table-head">command</th>
+    </tr>
+
+</thead>
+  <tbody>
+    <tr>
+      <td>Bartender</td>
+      <td>open Bartender search</td>
+      <td>⇧ ^ ⌥ B</td>
+    </tr>
+    <tr>
+      <td>Numi</td>
+      <td>open Numi</td>
+      <td>^ ⌥ ⌘ N</td>
+    </tr>
+    <tr>
+      <td>Iterm</td>
+      <td> jump to next split pane</td>
+      <td> ⌥ ⌘ ← or →</td>
+    </tr>
+    <tr>
+      <td>Iterm</td>
+      <td> Toggle Iterm Window</td>
+      <td>^ ⇧ I</td>
+    </tr>
+    <tr>
+      <td>Iterm</td>
+      <td> move to beginning</td>
+      <td>^ A</td>
+    </tr>
+    <tr>
+      <td>Iterm</td>
+      <td> move to end</td>
+      <td>^ E</td>
+    </tr>
+    <tr>
+      <td>Iterm</td>
+      <td> delete from cursor to beginning of line</td>
+      <td>^ U</td>
+    </tr>
+    <tr>
+      <td>Iterm</td>
+      <td> delete from cursor to end of line</td>
+      <td>^ K</td>
+    </tr>
+    <tr>
+      <td>Iterm</td>
+      <td>click somewhere in the line to move cursor</td>
+      <td>hold ⌥</td>
+    </tr>
+    <tr>
+      <td>Things</td>
+      <td>Fast Insert</td>
+      <td>^ ⇧ ␣</td>
+    </tr>
+    <tr>
+      <td>Alfred</td>
+      <td> Finder right click</td>
+      <td>^ ⌥ m</td>
+    </tr>
+    <tr>
+      <td>Alfred</td>
+      <td>Files and Folders Workflow</td>
+      <td>^ ⌥ ⌘ ü</td>
+    </tr>
+    <tr>
+      <td>Alfred</td>
+      <td> Search menu commands</td>
+      <td>^ ⌥ b</td>
+    </tr>
+    <tr>
+      <td>Alfred</td>
+      <td> Finder context menu (right click)</td>
+      <td>^ ⇧ m</td>
+    </tr>
+    <tr>
+      <td>Alfred</td>
+      <td> Show keyboard shortcuts</td>
+      <td>kc || ^ ⌥ b</td>
+    </tr>
+    <tr>
+      <td>Alfred</td>
+      <td> add front most window to pinboard</td>
+      <td>p tag1 tag2 tag3 ; some optional note</td>
+    </tr>
+    <tr>
+      <td>Alfred</td>
+      <td> selection to google search</td>
+      <td>^ ⌥ ⌘ g</td>
+    </tr>
+    <tr>
+      <td>Alfred</td>
+      <td> runs the last command in iterm</td>
+      <td>rerun</td>
+    </tr>
+    <tr>
+      <td>OSX</td>
+      <td> Tag selected files</td>
+      <td>⌘ ⇧ ,</td>
+    </tr>
+    <tr>
+      <td>OSX</td>
+      <td> Emoji inline</td>
+      <td>⌘ ^ space</td>
+    </tr>
+    <tr>
+      <td>CLI Tools</td>
+      <td>create a license e.g. ISC or mit or license -y 2014-2015 -n 'Fabian "fabiantheblind" Morón Zirfas' isc</td>
+      <td>license</td>
+    </tr>
+    <tr>
+      <td>CLI Tools</td>
+      <td> examples for CLI commands</td>
+      <td>tldr</td>
+    </tr>
+    <tr>
+      <td>CLI Tools</td>
+      <td> shows an ascii table</td>
+      <td>man ascii</td>
+    </tr>
+    <tr>
+      <td>CLI Tools</td>
+      <td> manage ssh hosts</td>
+      <td>storm</td>
+    </tr>
+    <tr>
+      <td>CLI Tools</td>
+      <td> view markdown (default is README.md)</td>
+      <td>vmd</td>
+    </tr>
+    <tr>
+      <td>CLI Tools</td>
+      <td> lets you cylce through input and copy it to the clipboard. e.g. ls | yank</td>
+      <td>yank</td>
+    </tr>
+    <tr>
+      <td>CLI Tools</td>
+      <td> set anybar to green</td>
+      <td>anybar green</td>
+    </tr>
+    <tr>
+      <td>CLI Tools</td>
+      <td> compare csv diffs</td>
+      <td>daff waffle.csv waffle2.csv --color --index</td>
+    </tr>
+    <tr>
+      <td>CLI Tools</td>
+      <td> get pw of current wifi</td>
+      <td>wifi-password</td>
+    </tr>
+    <tr>
+      <td>CLI Tools</td>
+      <td> instead of git. (disable zsh git plugin)</td>
+      <td>gg</td>
+    </tr>
+    <tr>
+      <td>CLI Tools</td>
+      <td> call sublime (zsh plugin)</td>
+      <td>st</td>
+    </tr>
+    <tr>
+      <td>CLI Tools</td>
+      <td> open current folder in sublime (zsh plugin)</td>
+      <td>stt</td>
+    </tr>
+    <tr>
+      <td>CLI Tools</td>
+      <td> history searcher like peco</td>
+      <td>hh</td>
+    </tr>
+    <tr>
+      <td>CLI Tools</td>
+      <td> alfred like chooser takes STDIN gives to STDOUT</td>
+      <td>STDIN | choose</td>
+    </tr>
+    <tr>
+      <td>CLI Tools</td>
+      <td> move things to trash. Replace rm with it</td>
+      <td>trash</td>
+    </tr>
+    </tbody>
+</table>
+  <!-- <strong>⇧ ⌘ D</strong> Split hriozontal -->
+  <!-- <strong>⌘ D</strong> Split vertical -->
+  <!-- <hr>
+  <h3>Mail Mate</h3>
+  <strong>^ ⌘ S </strong> open siganture menu -->
+  <!-- <strong>⌥ ⌘ 6</strong> indent + -->
+  <!-- <strong>⌥ ⌘ 5</strong> indent - -->
+  <!-- <strong>⇧ ⌘ #</strong> quote + -->
+  <!-- <strong>⇧ ⌘ ⌥ #</strong> quote - -->
+  <!-- <strong>^ ⇧ A 9</strong> Add To Things -->
+  <!-- <hr>
+  <h3>Optimal Layout</h3>
+  <strong>⌥ ^ -</strong> Toggle Moving/Jumping
+  <strong>⌥ ^ ↑</strong> Up
+  <strong>⌥ ^ ↓</strong> Down
+  <strong>⌥ ^ ←</strong> Left
+  <strong>⌥ ^ →</strong> Right
+  <strong>⌥ ^ ⌫</strong> Center Window -->
